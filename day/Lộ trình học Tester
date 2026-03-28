@@ -1,0 +1,71 @@
+Giai đoạn 0:
+
+1. Danh sách khái niệm CHI TIẾT (học theo thứ tự này – mỗi ngày 1-2 khái niệm)
+
+Tuần 1: Hiểu “Testing là gì thật sự”
+Software Testing là gì?
+Định nghĩa: Quá trình đánh giá chất lượng phần mềm bằng cách tìm kiếm sự khác biệt giữa hành vi thực tế và yêu cầu mong đợi.
+2 loại: Static testing (review code/tài liệu không chạy) + Dynamic testing (chạy phần mềm).
+Ví dụ thực tế: Tester không phải “phá app”, mà là “bảo vệ user khỏi crash, mất tiền, lộ dữ liệu”.
+Practice: Xem video Anh Tester – Bài 1 & 2.
+
+7 Nguyên tắc Testing cơ bản (ISTQB Foundation v4.0)
+Testing cho thấy sự hiện diện của lỗi, không chứng minh không có lỗi.
+Exhaustive testing là bất khả thi.
+Defect clustering (lỗi hay tập trung ở vài module).
+Pesticide paradox, Absence-of-errors fallacy, Early testing, Context-dependent.
+Practice: Viết ra giấy 7 nguyên tắc + ví dụ mỗi cái.
+
+QA vs QC vs Testing
+QA: Process-oriented (toàn bộ quy trình đảm bảo chất lượng).
+QC: Product-oriented (kiểm tra sản phẩm – chủ yếu testing).
+Testing: Một phần của QC.
+Practice: Giải thích cho người khác nghe (giả lập phỏng vấn intern).
+
+
+Tuần 2: Quy trình & Cấp độ
+4. SDLC – Software Development Life Cycle
+
+6 giai đoạn: Requirement → Design → Implementation → Testing → Deployment → Maintenance.
+Các mô hình chính: Waterfall (test cuối), Agile/Scrum (test từ đầu sprint), V-Model, DevOps.
+Sinh viên cần biết rõ Scrum (User Story, Sprint, Daily meeting, Retrospective).
+Practice: Vẽ sơ đồ SDLC + Agile trên giấy.
+
+
+STLC – Software Testing Life Cycle
+6 giai đoạn: Requirement Analysis → Test Planning → Test Design → Test Environment Setup → Test Execution → Test Closure.
+Tester làm gì ở mỗi giai đoạn? (Quan trọng nhất cho intern).
+
+Test Levels (4 cấp độ)
+Unit (dev), Integration, System (tester chính), Acceptance (UAT – khách hàng).
+Practice: Ví dụ cho mỗi cấp độ trên app Shopee.
+
+
+Tuần 3: Loại testing & Bug
+7. Test Types
+
+Functional vs Non-functional (Performance, Security, Usability…).
+Black-box vs White-box vs Grey-box.
+Smoke, Sanity, Regression, Retesting, Exploratory, Ad-hoc.
+Practice: Phân biệt Smoke vs Sanity + ví dụ.
+
+
+Bug / Defect / Failure & Bug Life Cycle
+Bug: Lỗi code. Defect: Sai lệch requirement. Failure: App crash khi chạy.
+7 trạng thái: New → Assigned → Open → Fixed → Retest → Verified → Closed (Reopened).
+Severity (Critical/High/Medium/Low) vs Priority (High/Medium/Low).
+Practice: Viết 1 bug report thật (dùng template).
+
+Test Case, Test Scenario, Test Data
+Test Scenario: Tình huống lớn.
+Test Case: Chi tiết (ID, Description, Steps, Test Data, Expected Result, Actual Result, Status).
+Practice: Viết 5 test case cho chức năng “Đăng nhập”.
+
+
+Tuần 4: Kỹ thuật thiết kế 
+10. Kỹ thuật thiết kế Test Case cơ bản
+
+Equivalence Partitioning (EP).
+Boundary Value Analysis (BVA).
+Decision Table (cho logic phức tạp).
+Practice: Áp dụng EP + BVA cho form “Tuổi” (0-100).
